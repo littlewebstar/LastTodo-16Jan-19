@@ -1,0 +1,17 @@
+constructor() {
+    super();
+    document.write("constructor calisti <hr/>");
+  }
+  
+  componentWillMount() {
+    document.write("Will mount calisti <hr/>");
+  }
+  componentDidMount() {
+    document.write("Did mount calisti <hr/>");
+  }
+  componentWillUnMount() {
+    document.write("Will unmount calisti <hr/>");
+  }
+
+
+
